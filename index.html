@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+        }
+
+        header img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .pay{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #fff;
+        }
+    
+        .pay  button:hover {
+            background-color: #008500;
+            cursor: pointer;
+        }
+        .pay a {
+            width: 45%;
+            height: 45px;
+        }
+        .pay a button {
+            width: 100%;
+            height: 100%;
+            background-color: #b80000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            padding: 15px;
+        }
+
+        .items {
+            width: 45%;
+            background-color: #fff9e0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .items:hover {
+            box-shadow: 1px 1px 15px rgba(0,0,0,0.2);
+        }
+
+        .items img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .items h4 {
+            padding: 10px 0 5px;
+            font-size: 16px;
+        }
+  
+        .items h3 {
+            border: 1px solid #ff0000;
+            border-radius: 10px;
+            margin: 0 20px 15px;
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        @media(min-width: 768px) {
+            .items {
+                width: 22%;
+            }
+        }
+           .redzone img {
+            width: 100%;
+            height: 60px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Devendra Fast f.png" alt="Banner Image">
+        <div class="pay">
+          <a href="upi://pay?pa=redzone123@upi&cu=INR">
+    <button>Pay Now Your Bills</button>
+</a>
+          <a href="upi://pay?pa=redzone123@upi&cu=INR">
+    <button>Please Give Your Reviews</button>
+</a>
+
+</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Repeat this item for more products -->
+        <div class="items">
+            <img src="burger.jpg" alt="Cheese Burger">
+            <h4>Cheese burger</h4>
+            <h3>₹300</h3>
+        </div>
+        <div class="items">
+            <img src="allo tikki chat.jpg" alt="Cheese Burger">
+            <h4>Allo tikki chat</h4>
+            <h3>₹300</h3>
+        </div>
+        <div class="items">
+            <img src="eggroll.jpg" alt="Cheese Burger">
+            <h4>Egg roll</h4>
+            <h3>₹300</h3>
+        </div>
+        <div class="items">
+            <img src="spring rolls.jpg" alt="Cheese Burger">
+            <h4>Spring rolls</h4>
+            <h3>₹300</h3>
+        </div>
+        <div class="items">
+            <img src="chowmin.jpg" alt="Cheese Burger">
+            <h4>Chowmin</h4>
+            <h3>₹300</h3>
+        </div>
+        <div class="items">
+            <img src="manchurian.jpg" alt="Cheese Burger">
+            <h4>Manchurian</h4>
+            <h3>₹300</h3>
+        </div>
+        <div class="items">
+            <img src="friendrice.jpg" alt="Cheese Burger">
+            <h4>Fried rice</h4>
+            <h3>₹300</h3>
+        </div>
+        <div class="items">
+            <img src="pizza.jpg" alt="Cheese Burger">
+            <h4>Pizza</h4>
+            <h3>₹300</h3>
+        </div>
+        <div class="items">
+            <img src="momos.jpg" alt="Cheese Burger">
+            <h4>Momos</h4>
+            <h3>₹300</h3>
+        </div>
+        <div class="items">
+            <img src="paw bhaji.jpg" alt="Cheese Burger">
+            <h4>Paw bhaji</h4>
+            <h3>₹300</h3>
+        </div>
+    </main>
+
+    <footer style="background-color: #fff; padding: 20px; text-align: center;">
+    <h3>Follow Us</h3>
+    <div style="margin-top: 10px;">
+        <a href="https://www.facebook.com/yourpage" target="_blank" style="margin: 0 10px; color: #0051ff;">
+            <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a href="https://www.instagram.com/yourpage" target="_blank" style="margin: 0 10px; color: #fa3559;">
+            <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        <a href="https://wa.me/yourNumber" target="_blank" style="margin: 0 10px; color: #25D366;">
+            <i class="fab fa-whatsapp fa-2x"></i>
+        </a>
+        <a href="https://www.youtube.com/yourchannel" target="_blank" style="margin: 0 10px; color: #FF0000;">
+            <i class="fab fa-youtube fa-2x"></i>
+        </a>
+        <a href="https://www.youtube.com/twitter" target="_blank" style="margin: 0 10px; color: #0026ff;">
+            <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a href="https://www.youtube.com/google" target="_blank" style="margin: 0 10px; color: #14af00;">
+            <i class="fab fa-google fa-2x"></i>
+        </a>
+    </div>
+</footer>
+<div class="redzone"><a href="https://havealookat.my.canva.site/redzonedigitalworld"><img src="designed by me.png" alt=""></a></div>
+</body>
+</html>
