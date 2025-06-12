@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demo Website</title>
+    <title>Devendra fast food</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <style>
@@ -11,7 +11,8 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: sans-serif;
+            font-family: 'Poppins', sans-serif;
+
         }
 
         body {
@@ -34,6 +35,7 @@
         .pay  button:hover {
             background-color: #008500;
             cursor: pointer;
+             transform: scale(1.05);
         }
         .pay a {
             width: 45%;
@@ -48,6 +50,8 @@
             border-radius: 5px;
             font-size: 15px;
             font-weight: bold;
+            transition: 0.3s ease;
+            line-height: 1;
         }
 
         main {
@@ -65,9 +69,11 @@
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             overflow: hidden;
             text-align: center;
+            transition: all 0.3s ease;
         }
         .items:hover {
-            box-shadow: 1px 1px 15px rgba(0,0,0,0.2);
+            transform: scale(1.03);
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
         }
 
         .items img {
@@ -89,7 +95,7 @@
             font-size: 16px;
         }
 
-        @media(min-width: 768px) {
+        @media(min-width: 720px) {
             .items {
                 width: 22%;
             }
@@ -99,12 +105,13 @@
             height: 40px;
             object-fit: cover;
         }
+
     </style>
 </head>
 <body>
     <header>
-        <img src="Devendra Fast f.png" alt="Banner Image">
-              <div class="pay">
+        <img src="DevendraFastfood.png" alt="Banner Image">
+        <div class="pay">
           <a href="upi://pay?pa=7453931360@kotak&pn=Manoj%20Narawariya&cu=INR
 ">
     <button>Pay Now Your Bills</button>
@@ -123,7 +130,7 @@
             <h3>₹300</h3>
         </div>
         <div class="items">
-            <img src="allo tikki chat.jpg" alt="Cheese Burger">
+            <img src="allotikkichat.jpg" alt="Cheese Burger">
             <h4>Allo tikki chat</h4>
             <h3>₹300</h3>
         </div>
@@ -133,7 +140,7 @@
             <h3>₹300</h3>
         </div>
         <div class="items">
-            <img src="spring rolls.jpg" alt="Cheese Burger">
+            <img src="springrolls.jpg" alt="Cheese Burger">
             <h4>Spring rolls</h4>
             <h3>₹300</h3>
         </div>
@@ -163,7 +170,7 @@
             <h3>₹300</h3>
         </div>
         <div class="items">
-            <img src="paw bhaji.jpg" alt="Cheese Burger">
+            <img src="pawbhaji.jpg" alt="Cheese Burger">
             <h4>Paw bhaji</h4>
             <h3>₹300</h3>
         </div>
@@ -172,20 +179,23 @@
     <footer style="background-color: #fff; padding: 20px; text-align: center;">
     <h3>Follow Us</h3>
     <div style="margin-top: 10px;">
-        <a href="https://www.facebook.com/redzonedigitalworld" target="_blank" style="margin: 0 10px; color: #0051ff;">
+        <a href="https://www.facebook.com/yourpage" target="_blank" style="margin: 0 10px; color: #0051ff;">
             <i class="fab fa-facebook fa-2x"></i>
         </a>
-        <a href="https://www.instagram.com/redzonedigitalworld1" target="_blank" style="margin: 0 10px; color: #fa3559;">
+        <a href="https://www.instagram.com/yourpage" target="_blank" style="margin: 0 10px; color: #fa3559;">
             <i class="fab fa-instagram fa-2x"></i>
         </a>
-        <a href="https://wa.me/7453931360" target="_blank" style="margin: 0 10px; color: #25D366;">
+        <a href="https://wa.me/yourNumber" target="_blank" style="margin: 0 10px; color: #25D366;">
             <i class="fab fa-whatsapp fa-2x"></i>
         </a>
-        <a href="https://www.google.com/google" target="_blank" style="margin: 0 10px; color: #14af00;">
+        <a href="https://www.youtube.com/yourchannel" target="_blank" style="margin: 0 10px; color: #FF0000;">
+            <i class="fab fa-youtube fa-2x"></i>
+        </a>
+        <a href="https://www.youtube.com/google" target="_blank" style="margin: 0 10px; color: #14af00;">
             <i class="fab fa-google fa-2x"></i>
         </a>
     </div>
 </footer>
-<div class="redzone"><a href="https://havealookat.my.canva.site/redzonedigitalworld"><img src="designed by me.png" alt=""></a></div>
+<div class="redzone"><a href="https://havealookat.my.canva.site/redzonedigitalworld"><img src="designedbyme.png" alt=""></a></div>
 </body>
 </html>
